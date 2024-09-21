@@ -15,6 +15,7 @@ import { Modal } from "./Modal.jsx";
 import Quiz from "./Quiz.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import DynamicForm from "./DynamicForm.jsx";
+import TrafficLight from "./TrafficLight.jsx";
 
 // const Login = lazy(() => import("./Login.jsx"));
 // const Login1 = lazy(() => import("./Login1.jsx"));
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: "/dynamicForm",
         element: <DynamicForm />,
+      },
+      {
+        path: "/trafficLight",
+        element: <TrafficLight />,
       },
     ],
   },

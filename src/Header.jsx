@@ -46,6 +46,9 @@ const Header = () => {
       <span style={{ padding: "10px" }}>
         <Link to={"/dynamicForm"}> DynamicForm </Link>
       </span>
+      <span style={{ padding: "10px" }}>
+        <Link to={"/trafficLight"}> TrafficLight </Link>
+      </span>
     </div>
   );
 };
