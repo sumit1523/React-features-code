@@ -49,6 +49,9 @@ const Header = () => {
       <span style={{ padding: "10px" }}>
         <Link to={"/trafficLight"}> TrafficLight </Link>
       </span>
+      <span style={{ padding: "10px" }}>
+        <Link to={"/debounce"}> Debounce </Link>
+      </span>
     </div>
   );
 };

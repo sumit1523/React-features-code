@@ -16,6 +16,7 @@ import Quiz from "./Quiz.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import DynamicForm from "./DynamicForm.jsx";
 import TrafficLight from "./TrafficLight.jsx";
+import Debounce from "./Debounce.jsx";
 
 // const Login = lazy(() => import("./Login.jsx"));
 // const Login1 = lazy(() => import("./Login1.jsx"));
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
       {
         path: "/trafficLight",
         element: <TrafficLight />,
+      },
+      {
+        path: "/debounce",
+        element: <Debounce />,
       },
     ],
   },
