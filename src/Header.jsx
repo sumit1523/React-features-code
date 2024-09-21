@@ -2,14 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        position: "fixed",
-        top: "0px",
-        justifyContent: "center",
-      }}
-    >
+    <>
       <span style={{ padding: "10px" }}>
         <Link to={"/login"}> Login </Link>
       </span>
@@ -37,7 +30,10 @@ const Header = () => {
       <span style={{ padding: "10px" }}>
         <Link to={"/digitalClock"}> DigitalClock </Link>
       </span>
-    </div>
+      <span style={{ padding: "10px" }}>
+        <Link to={"/dynamicForm"}> DynamicForm </Link>
+      </span>
+    </>
   );
 };
 export default Header;
